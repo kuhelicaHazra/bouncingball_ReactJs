@@ -21,8 +21,6 @@ export default function BoxComponent() {
  function move() {
    requestAnimationFrame(move);
  
-   // It clears the specified pixels within
-   // the given rectangle
    l.clearRect(0, 0, window.innerWidth, window.innerHeight);
  
    // Creating a circle
